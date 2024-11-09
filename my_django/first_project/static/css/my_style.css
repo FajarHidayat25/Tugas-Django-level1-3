@@ -1,0 +1,38 @@
+/* CSS untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f4f8, #d9e7f1);
+    color: #333;
+    text-align: center;
+}
+
+/* CSS untuk heading */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-top: 20px;
+    text-shadow: 2px 2px #bdc3c7;
+}
+
+/* CSS untuk paragraf */
+p {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin: 15px 0;
+}
+
+/* CSS untuk gambar */
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
